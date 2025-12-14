@@ -1,1 +1,1 @@
-# opuszczone-cuda-wiata
+# opuszczone-cuda-świata
