@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Kacper Jacyna">
+<meta name="keywords" content="Prypeć, Czarnobyl, katastrofa nuklearna, miasto widmo">
+<meta name="description" content="Szczegóły: Prypeć – miasto widmo opuszczone po katastrofie nuklearnej.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prypeć (Czarnobyl) - Opuszczony Cud</title>
+<link rel="stylesheet" href="styl.css">
+</head>
+<body>
+
+<button class="openbtn" onclick="toggleNav()">☰ MENU CUDÓW</button>
+
+<div id="side-menu">
+    <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">×</a>
+    <div class="wonders-menu-grid">
+        
+        <h2>OPUSZCZONE CUDY ŚWIATA</h2>
+        
+        <div class="wonder-card-side active"><a href="prypec.html"><h3>Czarnobyl (Prypeć)</h3><p>Ukraina | Katastrofa nuklearna</p></a></div>
+        <div class="wonder-card-side"><a href="kolmanskop.html"><h3>Kolmanskop</h3><p>Namibia | Upadek górnictwa diamentów</p></a></div>
+        <div class="wonder-card-side"><a href="angkor.html"><h3>Angkor</h3><p>Kambodża | Zmiana klimatu</p></a></div>
+        <div class="wonder-card-side"><a href="hashima.html"><h3>Hashima (Gunkanjima)</h3><p>Japonia | Zamknięcie kopalni węgla</p></a></div>
+        <div class="wonder-card-side"><a href="varosia.html"><h3>Varosia</h3><p>Cypr | Konflikt zbrojny</p></a></div>
+        <div class="wonder-card-side"><a href="centralia.html"><h3>Centralia</h3><p>USA | Podziemny pożar</p></a></div>
+        <div class="wonder-card-side"><a href="bodie.html"><h3>Bodie</h3><p>USA | Wygaśnięcie gorączki złota</p></a></div>
+
+    </div>
+</div>
+
+
+<header class="header">
+<div class="logo">7 OPUSZCZONYCH CUDÓW ŚWIATA</div>
+<nav class="menu">
+<ul>
+<li><a href="index.html#start">Start</a></li>
+<li><a onclick="toggleNav()">Lista Cudów</a></li>
+<li><a href="index.html#galeria">Galeria</a></li>
+</ul>
+</nav>
+</header>
+
+
+<section class="section intro">
+<h1>Czarnobyl (Prypeć)</h1>
+<p>Miasto widmo, które w jednej chwili zamieniło się w relikt epoki ZSRR. Symbol największej katastrofy nuklearnej.</p>
+</section>
+
+<section id="szczegoly" class="section">
+    <h2>Główne zdjęcie</h2>
+    
+    <div class="image-placeholder">
+        <img src="img/chernobyl.jpg" alt="prypec">
+    </div>
+    <h2>Historia i przyczyna opuszczenia</h2>
+    <p>Prypeć została założona w 1970 roku z myślą o pracownikach Czarnobylskiej Elektrowni Jądrowej. Miała być wzorcowym miastem socjalistycznym, w którym mieszkało blisko 50 tysięcy młodych ludzi. Posiadała nowoczesne, na ówczesne standardy, udogodnienia, takie jak basen, park rozrywki i kino.</p>
+    
+    <h3>Katastrofa 1986</h3>
+    <p>Katastrofa nastąpiła 26 kwietnia 1986 roku. Choć radioaktywna chmura już unosiła się nad miastem, ewakuacja ludności cywilnej rozpoczęła się dopiero 36 godzin po wybuchu. Mieszkańcy opuszczali swoje domy z myślą, że wrócą za kilka dni, stąd pozostawienie wszystkich osobistych rzeczy.</p>
+    
+    <h3>Dzisiejszy stan</h3>
+    <p>Dziś miasto jest pochłaniane przez las. Ikony Prypeci to diabelski młyn w Wesołym Miasteczku (który nigdy nie zdążył się obrócić), basen "Lazurny" oraz budynek szpitala i szkoły, w których natura przejęła kontrolę.</p>
+</section>
+
+
+<footer class="footer">
+    Projekt i wykonanie: Kacper Jacyna
+</footer>
+
+<script>
+function toggleNav() {
+  document.getElementById("side-menu").classList.toggle("open");
+}
+</script>
+
+</body>
+</html>

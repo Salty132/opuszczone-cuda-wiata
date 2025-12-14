@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Kacper Jacyna">
+<meta name="keywords" content="Hashima, Gunkanjima, Japonia, miasto widmo">
+<meta name="description" content="Szczegóły: Hashima (Gunkanjima) – japońska wyspa-twierdza opuszczona po zamknięciu kopalni węgla.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hashima (Japonia) - Opuszczony Cud</title>
+<link rel="stylesheet" href="styl.css">
+</head>
+<body>
+
+<button class="openbtn" onclick="toggleNav()">☰ MENU CUDÓW</button>
+
+<div id="side-menu">
+    <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">×</a>
+    <div class="wonders-menu-grid">
+        
+        <h2>OPUSZCZONE CUDY ŚWIATA</h2>
+        
+        <div class="wonder-card-side"><a href="prypec.html"><h3>Czarnobyl (Prypeć)</h3><p>Ukraina | Katastrofa nuklearna</p></a></div>
+        <div class="wonder-card-side"><a href="kolmanskop.html"><h3>Kolmanskop</h3><p>Namibia | Upadek górnictwa diamentów</p></a></div>
+        <div class="wonder-card-side"><a href="angkor.html"><h3>Angkor</h3><p>Kambodża | Zmiana klimatu</p></a></div>
+        <div class="wonder-card-side active"><a href="hashima.html"><h3>Hashima (Gunkanjima)</h3><p>Japonia | Zamknięcie kopalni węgla</p></a></div>
+        <div class="wonder-card-side"><a href="varosia.html"><h3>Varosia</h3><p>Cypr | Konflikt zbrojny</p></a></div>
+        <div class="wonder-card-side"><a href="centralia.html"><h3>Centralia</h3><p>USA | Podziemny pożar</p></a></div>
+        <div class="wonder-card-side"><a href="bodie.html"><h3>Bodie</h3><p>USA | Wygaśnięcie gorączki złota</p></a></div>
+
+    </div>
+</div>
+
+<header class="header">
+<div class="logo">7 OPUSZCZONYCH CUDÓW ŚWIATA</div>
+<nav class="menu">
+<ul>
+<li><a href="index.html#start">Start</a></li>
+<li><a onclick="toggleNav()">Lista Cudów</a></li>
+<li><a href="index.html#galeria">Galeria</a></li>
+</ul>
+</nav>
+</header>
+
+
+<section class="section intro">
+<h1>Hashima (Gunkanjima)</h1>
+<p>Japońska wyspa-twierdza. Najgęściej zaludnione miejsce na Ziemi w szczytowym okresie. Znana jako "Wyspa Okręt Wojenny".</p>
+</section>
+
+<section id="szczegoly" class="section">
+    <h2>Główne zdjęcie</h2>
+    
+    <div class="image-placeholder">
+        <img src="img/hashima.jpg" alt="hashima">
+    </div>
+    <h2>Historia i przyczyna opuszczenia</h2>
+    <p>Wyspa Hashima stała się kluczowym ośrodkiem wydobycia węgla w Japonii. Zbudowano na niej dziesiątki betonowych wieżowców, co nadało jej kształt podobny do okrętu wojennego. W 1959 roku gęstość zaludnienia była tu najwyższa na świecie, przekraczając 5000 osób na 1 km².</p>
+    
+    <h3>Kryzys energetyczny</h3>
+    <p>Kiedy Japonia przestawiła się z węgla na ropę naftową, kopalnie węgla na wyspie zaczęły przynosić straty. Ostatecznie kopalnię zamknięto w 1974 roku. W ciągu kilku tygodni wyspa została całkowicie opuszczona.</p>
+    
+    <h3>Dzisiejszy stan</h3>
+    <p>Gunkanjima jest dziś symbolem szybkiej industrializacji. W 2015 roku została wpisana na listę UNESCO, a jej zrujnowane, betonowe budynki inspirują twórców filmowych.</p>
+</section>
+
+<footer class="footer">
+    Projekt i wykonanie: Kacper Jacyna
+</footer>
+<script>
+function toggleNav() {
+  document.getElementById("side-menu").classList.toggle("open");
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Kacper Jacyna">
+<meta name="keywords" content="Centralia, Pensylwania, pożar, miasto widmo">
+<meta name="description" content="Szczegóły: Centralia – miasto opuszczone z powodu podziemnego pożaru kopalni.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centralia (USA) - Opuszczony Cud</title>
+<link rel="stylesheet" href="styl.css">
+</head>
+<body>
+
+<button class="openbtn" onclick="toggleNav()">☰ MENU CUDÓW</button>
+
+<div id="side-menu">
+    <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">×</a>
+    <div class="wonders-menu-grid">
+        
+        <h2>OPUSZCZONE CUDY ŚWIATA</h2>
+        
+        <div class="wonder-card-side"><a href="prypec.html"><h3>Czarnobyl (Prypeć)</h3><p>Ukraina | Katastrofa nuklearna</p></a></div>
+        <div class="wonder-card-side"><a href="kolmanskop.html"><h3>Kolmanskop</h3><p>Namibia | Upadek górnictwa diamentów</p></a></div>
+        <div class="wonder-card-side"><a href="angkor.html"><h3>Angkor</h3><p>Kambodża | Zmiana klimatu</p></a></div>
+        <div class="wonder-card-side"><a href="hashima.html"><h3>Hashima (Gunkanjima)</h3><p>Japonia | Zamknięcie kopalni węgla</p></a></div>
+        <div class="wonder-card-side"><a href="varosia.html"><h3>Varosia</h3><p>Cypr | Konflikt zbrojny</p></a></div>
+        <div class="wonder-card-side active"><a href="centralia.html"><h3>Centralia</h3><p>USA | Podziemny pożar</p></a></div>
+        <div class="wonder-card-side"><a href="bodie.html"><h3>Bodie</h3><p>USA | Wygaśnięcie gorączki złota</p></a></div>
+
+    </div>
+</div>
+
+<header class="header">
+<div class="logo">7 OPUSZCZONYCH CUDÓW ŚWIATA</div>
+<nav class="menu">
+<ul>
+<li><a href="index.html#start">Start</a></li>
+<li><a onclick="toggleNav()">Lista Cudów</a></li>
+<li><a href="index.html#galeria">Galeria</a></li>
+</ul>
+</nav>
+</header>
+
+
+<section class="section intro">
+<h1>Centralia</h1>
+<p>Miasto w Pensylwanii (USA), które jest opuszczone z powodu podziemnego pożaru, trwającego od ponad 60 lat.</p>
+</section>
+
+<section id="szczegoly" class="section">
+    <h2>Główne zdjęcie</h2>
+    
+    <div class="image-placeholder">
+        <img src="img/centralia.jpg" alt="centralia">
+    </div>
+    <h2>Historia i przyczyna opuszczenia</h2>
+    <p>Centralia była małym, górniczym miasteczkiem. Katastrofa rozpoczęła się w maju 1962 roku. Prawdopodobnie był to nieudany pożar śmieci, który rozprzestrzenił się na opuszczoną kopalnię węgla kamiennego, tworząc gigantyczny podziemny pożar.</p>
+    
+    <h3>Trwały ogień</h3>
+    <p>Pożaru nie udało się ugasić, a ogień powoli rozprzestrzeniał się pod miastem. Zjawisko to prowadziło do emisji toksycznych gazów, zapadania się ziemi i niebezpiecznie wysokich temperatur na powierzchni.</p>
+    
+    <h3>Dzisiejszy stan</h3>
+    <p>Centralia jest niemal miastem widmem. Zostało zburzone, a na jej terenie pozostało zaledwie kilka domów. Najbardziej znanym reliktem jest zniszczony, pękający od żaru "Płonący Odcinek Drogi 61" (Graffiti Highway).</p>
+</section>
+
+<footer class="footer">
+    Projekt i wykonanie: Kacper Jacyna
+</footer>
+<script>
+function toggleNav() {
+  document.getElementById("side-menu").classList.toggle("open");
+}
+</script>
+</body>
+</html>

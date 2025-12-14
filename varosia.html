@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Kacper Jacyna">
+<meta name="keywords" content="Varosia, Cypr, Famagusta, konflikt zbrojny">
+<meta name="description" content="Szczegóły: Varosia – luksusowy kurort na Cyprze, opuszczony po inwazji tureckiej.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Varosia (Cypr) - Opuszczony Cud</title>
+<link rel="stylesheet" href="styl.css">
+</head>
+<body>
+
+<button class="openbtn" onclick="toggleNav()">☰ MENU CUDÓW</button>
+
+<div id="side-menu">
+    <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">×</a>
+    <div class="wonders-menu-grid">
+        
+        <h2>OPUSZCZONE CUDY ŚWIATA</h2>
+        
+        <div class="wonder-card-side"><a href="prypec.html"><h3>Czarnobyl (Prypeć)</h3><p>Ukraina | Katastrofa nuklearna</p></a></div>
+        <div class="wonder-card-side"><a href="kolmanskop.html"><h3>Kolmanskop</h3><p>Namibia | Upadek górnictwa diamentów</p></a></div>
+        <div class="wonder-card-side"><a href="angkor.html"><h3>Angkor</h3><p>Kambodża | Zmiana klimatu</p></a></div>
+        <div class="wonder-card-side"><a href="hashima.html"><h3>Hashima (Gunkanjima)</h3><p>Japonia | Zamknięcie kopalni węgla</p></a></div>
+        <div class="wonder-card-side active"><a href="varosia.html"><h3>Varosia</h3><p>Cypr | Konflikt zbrojny</p></a></div>
+        <div class="wonder-card-side"><a href="centralia.html"><h3>Centralia</h3><p>USA | Podziemny pożar</p></a></div>
+        <div class="wonder-card-side"><a href="bodie.html"><h3>Bodie</h3><p>USA | Wygaśnięcie gorączki złota</p></a></div>
+
+    </div>
+</div>
+
+<header class="header">
+<div class="logo">7 OPUSZCZONYCH CUDÓW ŚWIATA</div>
+<nav class="menu">
+<ul>
+<li><a href="index.html#start">Start</a></li>
+<li><a onclick="toggleNav()">Lista Cudów</a></li>
+<li><a href="index.html#galeria">Galeria</a></li>
+</ul>
+</nav>
+</header>
+
+
+<section class="section intro">
+<h1>Varosia</h1>
+<p>Miasto na Cyprze, dawniej luksusowy kurort, zamrożony w czasie po inwazji wojskowej.</p>
+</section>
+
+<section id="szczegoly" class="section">
+    <h2>Główne zdjęcie</h2>
+    
+    <div class="image-placeholder">
+        <img src="img/varoshia.jpg" alt="varosia">
+    </div>
+    <h2>Historia i przyczyna opuszczenia</h2>
+    <p>Varosia, będąca częścią Famagusty na Cyprze, była w latach 60. i 70. jednym z najbardziej luksusowych i popularnych kurortów na świecie. Przyciągała gwiazdy filmowe i bogatych turystów. Zbudowano tu nowoczesne hotele i apartamentowce.</p>
+    
+    <h3>Inwazja 1974</h3>
+    <p>W 1974 roku, w wyniku inwazji tureckiej na Cypr, mieszkańcy Varosii musieli opuścić miasto w ciągu kilku godzin. Turcja przejęła kontrolę nad miastem i otoczyła je drutem kolczastym, ogłaszając strefą buforową.</p>
+    
+    <h3>Dzisiejszy stan</h3>
+    <p>Miasto pozostaje opuszczone od ponad 50 lat. Hotele niszczeją, ubrania w sklepach butwieją, a plaże zarastają. Varosia jest unikalnym przykładem "zamrożenia" całego miasta z dnia na dzień w wyniku konfliktu politycznego.</p>
+</section>
+
+<footer class="footer">
+    Projekt i wykonanie: Kacper Jacyna
+</footer>
+<script>
+function toggleNav() {
+  document.getElementById("side-menu").classList.toggle("open");
+}
+</script>
+</body>
+</html>

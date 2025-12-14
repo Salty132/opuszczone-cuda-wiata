@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Kacper Jacyna">
+<meta name="keywords" content="Angkor, Kambodża, Imperium Khmerów, świątynia">
+<meta name="description" content="Szczegóły: Angkor – starożytna stolica Imperium Khmerów, pochłonięta przez dżunglę.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Angkor (Kambodża) - Opuszczony Cud</title>
+<link rel="stylesheet" href="styl.css">
+</head>
+<body>
+
+<button class="openbtn" onclick="toggleNav()">☰ MENU CUDÓW</button>
+
+<div id="side-menu">
+    <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">×</a>
+    <div class="wonders-menu-grid">
+        
+        <h2>OPUSZCZONE CUDY ŚWIATA</h2>
+        
+        <div class="wonder-card-side"><a href="prypec.html"><h3>Czarnobyl (Prypeć)</h3><p>Ukraina | Katastrofa nuklearna</p></a></div>
+        <div class="wonder-card-side"><a href="kolmanskop.html"><h3>Kolmanskop</h3><p>Namibia | Upadek górnictwa diamentów</p></a></div>
+        <div class="wonder-card-side active"><a href="angkor.html"><h3>Angkor</h3><p>Kambodża | Zmiana klimatu</p></a></div>
+        <div class="wonder-card-side"><a href="hashima.html"><h3>Hashima (Gunkanjima)</h3><p>Japonia | Zamknięcie kopalni węgla</p></a></div>
+        <div class="wonder-card-side"><a href="varosia.html"><h3>Varosia</h3><p>Cypr | Konflikt zbrojny</p></a></div>
+        <div class="wonder-card-side"><a href="centralia.html"><h3>Centralia</h3><p>USA | Podziemny pożar</p></a></div>
+        <div class="wonder-card-side"><a href="bodie.html"><h3>Bodie</h3><p>USA | Wygaśnięcie gorączki złota</p></a></div>
+
+    </div>
+</div>
+
+<header class="header">
+<div class="logo">7 OPUSZCZONYCH CUDÓW ŚWIATA</div>
+<nav class="menu">
+<ul>
+<li><a href="index.html#start">Start</a></li>
+<li><a onclick="toggleNav()">Lista Cudów</a></li>
+<li><a href="index.html#galeria">Galeria</a></li>
+</ul>
+</nav>
+</header>
+
+
+<section class="section intro">
+<h1>Angkor</h1>
+<p>Starożytna stolica Imperium Khmerów w Kambodży, otoczona dżunglą. Największa na świecie metropolia przedindustrialna.</p>
+</section>
+
+<section id="szczegoly" class="section">
+    <h2>Główne zdjęcie</h2>
+    
+    <div class="image-placeholder">
+        <img src="img/angkor.jpg" alt="angkor">
+    </div>
+    <h2>Historia i przyczyna opuszczenia</h2>
+    <p>Angkor był stolicą Imperium Khmerów w latach 802–1431 n.e. W szczytowym okresie miasto zajmowało obszar większy niż współczesny Nowy Jork i było domem dla blisko miliona mieszkańców. Wzniesiono w nim słynną świątynię Angkor Wat, symbol potęgi i złożonej inżynierii wodnej.</p>
+    
+    <h3>Zmiana cywilizacyjna i klimatyczna</h3>
+    <p>Główne teorie wskazują na szereg czynników: najazdy tajskie, które zniszczyły system irygacyjny, oraz zmiany klimatyczne, które doprowadziły do ekstremalnych susz i powodzi, co uniemożliwiło utrzymanie tak dużej populacji. W 1431 r. miasto zostało ostatecznie porzucone.</p>
+    
+    <h3>Dzisiejszy stan</h3>
+    <p>Ruiny Angkoru są obecnie wpisane na listę światowego dziedzictwa UNESCO. Dżungla i gigantyczne korzenie drzew (szczególnie w świątyni Ta Prohm) dosłownie oplatają kamienne budowle.</p>
+</section>
+
+<footer class="footer">
+    Projekt i wykonanie: Kacper Jacyna
+</footer>
+
+<script>
+function toggleNav() {
+  document.getElementById("side-menu").classList.toggle("open");
+}
+</script>
+
+</body>
+</html>
